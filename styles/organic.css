@@ -1,0 +1,30 @@
+.organic-container
+{
+  padding: 2% 10%;
+  background-color: #d6954b;
+  color: #fbfbfb;
+}
+
+.organic-container h1
+{
+  letter-spacing: 3px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  font-size: 30px;
+}
+
+.organic-container details
+{
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.organic-container details summary
+{
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+
+

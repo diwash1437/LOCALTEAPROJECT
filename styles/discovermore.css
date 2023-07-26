@@ -1,0 +1,52 @@
+
+.discover-container
+{
+  padding: 2% 10%;
+}
+
+
+.discover-container h1
+{
+  letter-spacing:  3px;
+  margin-bottom: 20px;
+}
+
+.discover-container iframe
+{
+  margin-bottom: 20px;
+  width: 80%;
+  height: 600px;
+}
+
+
+
+.discover-container article
+{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 20px;
+ 
+}
+.discover-container article a
+{
+  color: #4a4a4a;
+}
+
+.discover-container article a:nth-child(2)
+{
+  width: 250px;
+  border: 2px solid #d6954b;
+  padding: 10px 20px;
+  transition: 0.9s ease-in;
+  text-decoration: none;
+  color: #4a4a4a;
+ 
+}
+
+.discover-container article a:nth-child(2):hover
+{
+  color: #d6954b;
+}
+
+

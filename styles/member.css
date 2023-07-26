@@ -1,0 +1,173 @@
+
+
+.container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.member
+{
+ 
+position: relative;
+width: 320px;
+height: 400px;
+/* background-color: yellow; */
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin: 0px 20px;
+
+
+}
+
+.member .diwash
+{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: aqua;
+  border-radius: 15px;
+  background: url(../image/member/diwash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.member .roshani
+{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: aqua;
+  border-radius: 15px;
+  background: url(../image/member/roshani.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+.member .sahadeb
+{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: aqua;
+  border-radius: 15px;
+  background: url(../image/member/Sahadeb.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.member .surece
+{
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background-color: aqua;
+  border-radius: 15px;
+  background: url(../image/member/surece.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
+.member .image::before
+{
+  content: "";
+  position: absolute;
+  /* background-color: red; */
+  width: 20px;
+  height: 20px;
+  bottom: 0;
+  left: 53%;
+  border-radius: 50%;
+  box-shadow: -10px 10px 0 white;
+}
+.member .image::after
+{
+  content: "";
+  position: absolute;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  bottom: 70px;
+  left: 0;
+  border-radius: 50%;
+  box-shadow: -10px 10px 0 white;
+}
+
+.member .texttile
+{
+  position: relative;
+  width: 100%;
+  height: 150px;
+  background-color: #232949;
+  border-radius: 15px;
+  border-top-left-radius: 0;
+  /* padding: 0 35px; */
+}
+.member .texttile ul
+{
+  color: white;
+  letter-spacing: 4px;
+  line-height: 28px;
+}
+
+.member .texttile ul li
+{
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+
+.member .texttile .member-name
+{
+  position: absolute;
+  top: -80px;
+  width: 50%;
+  height: 80px;
+  left: 0;
+    /* background-color: red; */
+  border-top: 10px solid white;
+  border-right: 10px solid white;
+  border-top-right-radius: 25px;
+  background-color: #232949;
+}
+
+
+
+
+
+.member-name a
+{
+
+  background-color: white;
+  color: blacks;
+  text-decoration: none;
+  display: block;
+  margin: 15px;
+  padding: 10px 25px;
+  font-weight: 500;
+  border-radius: 7px;
+
+}
+
+
+

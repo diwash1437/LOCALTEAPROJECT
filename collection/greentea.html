@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- general css for header and footer  -->
+  <link rel="stylesheet" href="../styles/general.css">
+  <!-- for green tea css  -->
+  <link rel="stylesheet" href="../styles/collection css/localteacollection.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+
+</head>
+<body>
+
+
+    <!-- creating sticky nav section  -->
+    <header>
+      <div class="left-section">
+        <a href="../index.html">
+         <img src="../image/logo.PNG" alt="">
+        </a>
+        
+      </div>
+      <div class="middle-section">
+             <nav>
+               <ul>
+                
+               
+                <li><a href="../generalinfo/organic.html">  HERB INFORMATION </a></li>
+                <li><a href="../generalinfo/discovermore.html">  DISCOVER </a></li>
+                <li><a href="../teammember.html">  TEA CLUB </a></li>
+                <li><a href="">  CONTACT </a></li>
+               </ul>
+             </nav>
+      </div>
+  
+      <div class="right-section">
+        <a href="" class="rightsection-search">
+          <img class="search" src="./image/search.svg" alt="">
+          <div class="searchhover"> Search </div>
+        </a>
+        <a href="" class="rightsection-voice">
+          <img class="voice-search" src="./image/voice-search-icon.svg" alt="">
+          <div class="searchhover"> Blog </div>
+        </a>
+        <a href="" ><ion-icon name="person-outline"></ion-icon></a>
+      </div>
+  
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // buying part section  -->
+
+  <div class="container">
+    <div class="first-section">
+      <div class="first-section-container">
+        <img class="onepiece-image-logo"  src="../teacolelctionimage/collectionproduct image/cinnamon green tea.jpg" alt=""  onclick="myfunction(this)">
+        <img class="onepiece-image-logo" src="../teacolelctionimage/collectionproduct image/mint green tea.jpg" alt="" onclick="myfunction(this)">
+         <img class="onepiece-image-logo" src="../teacolelctionimage/collectionproduct image/lemon green tea.jpg" alt="" onclick="myfunction(this)">
+         <img class="onepiece-image-logo" src="../teacolelctionimage/collectionproduct image/Mango Green Tea Recipe.jpg" alt="" onclick="myfunction(this)">
+         <img class="onepiece-image-logo" src="../teacolelctionimage/collectionproduct image/turmericgreen tea.jpg" alt="" onclick="myfunction(this)">
+      
+      </div>
+ 
+    </div>
+    <div class="second-section">
+      <img id="imagebox" class="onepiece-main-image" src="../teacolelctionimage/greentea.jpg" alt="">
+    </div>
+    <div class="third-section">
+      <h1>Green Tea</h1>
+      <p> Detox tea is a quicker way to stay hydrated and healthy as it contains all the nutrition and mineral benefits. Detox tea is nothing but tea infused with fresh </p>
+      <ul>
+        <li>Cinnamon green tea</li>
+        <li>Mint green tea</li>
+        <li>Lemon green tea</li>
+        <li>Fruity green tea</li>
+        <li>Turmeric green tea</li>
+        
+      
+      </ul>
+
+      <div class="rate">
+        <button>4.5 
+          <img class="thirdsection-button-star" src="./image/icons8-star-64.png" alt="">
+        </button>
+        11,000 ratings and 9500 reviews
+      </div>
+     <p>
+      Bounty Unrate <del>1000..</del> (off)
+     </p>
+     
+     <div class="buyandflip-button">
+      <button class="buy-button">
+        <img src="./image/icons8-shopping-bag-64.png" alt="">
+        Buy Now 
+      
+      </button>
+      <button class="flipkart-button">
+       <img src="./image/icons8-heart-64.png" alt="">
+        On flipkart 
+      </button>
+     </div>
+      
+    
+    
+    </div>
+
+
+
+
+  </div>
+
+
+    <!-- for icons on  -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+
+
+
+  <script>
+   function myfunction(smallimg)
+   {
+    let fullimg = document.getElementById("imagebox");
+    fullimg.src = smallimg.src;
+   }
+
+  </script>
+  
+</body>
+</html>

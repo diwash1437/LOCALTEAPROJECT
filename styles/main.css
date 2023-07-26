@@ -1,0 +1,574 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root
+{
+  --white: #ffffff;
+  --black: #000000;
+  --gold: #d6954b;
+  --lgray: #fbfbfb;
+  --gray: #f4f4f4;
+  --dgray: #4a4a4a;
+  --mdgray: #dbdbdb;
+  --danger: red;
+
+}
+
+
+
+
+section 
+{
+  padding: 0px 2%;
+ 
+}
+h1
+{
+  color: #4a4a4a;
+  font-size: 40px;
+}
+h4
+{
+  color: #4a4a4a;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+
+section.shop-collection
+{
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.shop-collection .shop-head
+{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.shop-container
+{
+  /* padding: 0px 50px; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+ 
+  
+}
+
+.shop-container .shop-box
+{
+ height: 100%;
+ text-align: start;
+ padding: 0px 40px;
+
+}
+
+.shop-container .shop-box .shop-img img
+{
+  width: 300px;
+  height: 300px;
+ background-size: cover;
+ background-position: center;
+ object-fit: cover;
+ object-position: center;
+ cursor: pointer;
+}
+
+.shop-container .shop-box .shop-title
+{
+  text-align: center;
+}
+
+.shop-box:hover  .shop-title .text {
+  color: #d6954b;
+  transition: color 0.40s ease-in;
+}
+
+
+
+
+/* tea collection details  */
+.tea-collection
+{
+  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+.tea-collection .teacol-details
+{
+  margin-bottom: 20px;
+}
+
+.tea-collection .teacol-img
+{
+  display: grid;
+  grid-template-columns: repeat(5, 275px);
+  gap:20px;
+  overflow: hidden;
+  cursor: pointer;
+
+}
+.tea-collection .teacol-img .imageConatiner img
+{
+  width: 100%;
+  height: 280px;
+  border-radius: 20px;
+  object-fit: cover;
+  object-position: center;
+  transition: 0.9s;
+}
+
+.tea-collection .teacol-img .imageConatiner img:hover
+{
+  transform: translateY(-10px);
+  
+}
+.tea-collection .teacol-img .imageConatiner h4:hover
+{
+  color: #d6954b;
+}
+
+
+.tea-collection .teacol-img .imageConatiner
+{
+  color: #4a4a4a;
+}
+
+.imageConatiner:hover  h4.text{
+  color: #d6954b;
+  transition: color 0.40s ease-in;
+}
+
+
+
+
+
+/* herb container   */
+
+section .herb-container
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+  position: relative;
+  background-color: #f4f4f4;
+  
+  
+}
+
+.herb-container .herb-img
+{
+  flex: 3;
+  /* width: 400px; */
+  max-width: 800px;
+  border-right: 10px solid white;
+
+  
+
+}
+.herb-container .herb-img img
+{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  object-position: center;
+ 
+}
+.herb-details {
+ flex: 1;
+ padding: 0px 40px;
+}
+
+.herb-details h2
+{
+  margin-bottom: 30px;
+  font-size: 29px;
+  color: #979090;
+}
+.herb-details a
+{
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #d6954b;
+  font-size: 15px;
+  color: #979090;
+  letter-spacing: 3px;
+  transition: 1s ease-in;
+ 
+}
+.herb-details a:hover
+{
+  background-color: #ffffff;
+  color: #d6954b;
+}
+
+
+
+
+/* /historical section  */
+.historicalcenter
+{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  box-shadow: 1px 1px 5px #4a4a4a;
+  column-gap: 10px;
+  background-color: #f4f4f4;
+}
+
+.historicalcenter .historical-details
+{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+
+}
+.historicalcenter .historical-details a
+{
+margin-top: 10px;
+ text-decoration: none;
+ padding: 10px 15px;
+ border: 1px solid #d6954b;
+ color: #979090;
+ font-size: 14px;
+ letter-spacing: 3px;
+ transition: 1s ease-out;
+}
+.historicalcenter .historical-details a:hover
+{
+  background-color: #ffffff;
+  color: #d6954b;
+}
+
+
+
+.historicalcenter .historical-img
+{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.historicalcenter .historical-img img
+{
+  width: 370px;
+  height: 370px;
+  margin-left: 12px;
+  cursor: pointer;
+  transition: 1s ease-out;
+}
+.historicalcenter .historical-img img:hover
+{
+  opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* each tea with beautiful  */
+.discovermore
+{
+  margin: 100px auto;
+  width: 95%;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(rgba(24, 24, 24, 0.7),rgba(47, 47, 47, 0.7)),url(../image/main2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 120px 0;
+  border-radius: 10px;
+
+
+}
+.discovermore h1{
+  margin-bottom: 5%;
+}
+
+
+.discover-btn
+{
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 14px;
+  cursor: pointer;
+  background: transparent;
+  transition: ease-in-out 1s;
+  
+}
+.discover-btn:hover
+{
+  border: 1px solid #f44336;
+  background: #f44336;
+  
+ 
+}
+
+
+
+
+/* join us in insta */
+section .Joinus-insta
+{
+  padding: 2px 10px;
+  margin-bottom: 30px;
+}
+.Joinus-insta
+{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 20px;
+  
+}
+
+
+.Joinus-insta .insta-logo
+{
+  background-color: #f4f4f4;
+  width: 300px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+ 
+  
+
+}
+.insta-logo  ul
+{
+  margin-bottom: 20px;
+}
+.insta-logo  ul li 
+{
+  list-style: none;
+
+
+}
+
+
+.insta-logo .insta-logoprofile ul li a
+{
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #333;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.insta-logo .insta-logoprofile li a i
+
+{
+  
+  /* color: white; */
+  color: rgb(178, 69, 98);
+  font-size: 80px;
+
+  
+}
+
+
+
+
+
+
+.wrapper
+{
+  max-width: 1200px;
+  position: relative;
+
+}
+
+
+.wrapper i
+{
+ position: absolute;
+ top: 50%;
+ height: 46px;
+ width: 46px;
+ font-size: 1.2rem;
+ cursor: pointer;
+ text-align: center;
+ line-height: 46px;
+ background-color: #dbdbdb;
+ border-radius: 50%;
+ transform: translateY(-50%);
+ 
+
+ }
+ .wrapper i:first-child
+ {
+  left: -10px;
+ }
+ .wrapper i:last-child
+ {
+  right: -10px;
+ }
+
+
+
+.wrapper .insta-gallery 
+{
+  white-space: nowrap;  
+  cursor: pointer;
+  overflow: hidden;
+  /* image will scroll smoothly */
+  scroll-behavior: smooth;
+}
+
+.insta-gallery.dragging
+{
+  scroll-behavior: auto;
+  cursor: grab;
+
+}
+
+.insta-gallery.dragging img 
+{
+  pointer-events: none;
+}
+
+.insta-gallery img
+{
+ 
+  width: calc(100%/4);
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 1000px)
+{
+  .insta-gallery img 
+  {
+    width: calc(100%/3);
+  }
+  
+}
+
+
+@media screen and (max-width: 1000px)
+{
+  section .Joinus-insta
+{
+  padding: 2px 0px;
+}
+  .insta-gallery img 
+  {
+    width: calc(100%/3);
+  }
+  
+}
+@media screen and (max-width: 900px)
+{
+  section .Joinus-insta
+{
+  padding: 2px 0px;
+}
+  .insta-gallery img 
+  {
+    width: calc(100%/2);
+  }
+  
+}
+
+
+@media screen and (max-width: 550px)
+{
+  section .Joinus-insta
+{
+  padding: 2px 0px;
+}
+  .insta-gallery img 
+  {
+    width: 100%
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+/* join with us  */
+
+.join-section .join
+{
+  background-color: rgba(0, 0, 0, 0.08);
+  /* line-height: 26.4px; */
+  margin: auto;
+  /* width: 100%; */
+  height: 100px;
+  align-items: center;
+  text-align: center;
+  padding: 0px 20px;
+
+}
+
+
+.join-section .join
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.join-section .join .email-box .join-email
+{
+ 
+  padding: 10px 20px;
+}
+
+
+
+input[value= "Submit"]
+{
+  background-color: #4a4a4a;
+  padding: 11px 20px;
+  border: none;
+  color: #ffffff;
+ 
+}
+
+
+
+
